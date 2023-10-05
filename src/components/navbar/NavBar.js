@@ -43,7 +43,7 @@ function NavBar() {
     >
       <Container maxWidth="xl" sx={{ border: "3px solid green" }}>
         <Toolbar disableGutters>
-          <Link to={"/home"}>
+          <Link to={"/"}>
             <Typography
               variant="h6"
               noWrap
