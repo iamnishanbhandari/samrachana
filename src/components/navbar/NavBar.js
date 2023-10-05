@@ -43,25 +43,25 @@ function NavBar() {
     >
       <Container maxWidth="xl" sx={{ border: "3px solid green" }}>
         <Toolbar disableGutters>
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              border: "3px solid red",
-              mr: 2,
-              display: { xs: "none", md: "flex", border: "3px solid red" },
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
-            SAMRACHANA
-          </Typography>
-
+          <Link to={"/home"}>
+            <Typography
+              variant="h6"
+              noWrap
+              component="a"
+              sx={{
+                border: "3px solid red",
+                mr: 2,
+                display: { xs: "none", md: "flex", border: "3px solid red" },
+                fontFamily: "monospace",
+                fontWeight: 700,
+                letterSpacing: ".3rem",
+                color: "white",
+                textDecoration: "none",
+              }}
+            >
+              SAMRACHANA
+            </Typography>
+          </Link>
           <Box
             sx={{
               border: "3px solid red",
@@ -105,24 +105,25 @@ function NavBar() {
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              mr: 2,
-              display: { xs: "flex", md: "none" },
-              flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "inherit",
-              textDecoration: "none",
-            }}
-          >
-            SAMRACHANA
-          </Typography>
+          <Link to={"/home"}>
+            <Typography
+              variant="h5"
+              noWrap
+              component="a"
+              sx={{
+                mr: 2,
+                display: { xs: "flex", md: "none" },
+                flexGrow: 1,
+                fontFamily: "monospace",
+                fontWeight: 700,
+                letterSpacing: ".3rem",
+                color: "inherit",
+                textDecoration: "none",
+              }}
+            >
+              SAMRACHANA
+            </Typography>
+          </Link>
           <Box
             sx={{
               flexGrow: 1,
@@ -155,7 +156,7 @@ function NavBar() {
             ))} */}
             <Box sx={{ display: "flex" }}>
               <Box>
-                <Link to={"/"}>
+                <Link to={"/contracts"}>
                   <Button
                     sx={{
                       color: "white",
@@ -255,12 +256,14 @@ function NavBar() {
               ))}
             </Menu>
           </Box>
-          <Box>
+          <Box ml={10}>
             <Button
               sx={{
                 color: "white",
-                border: "1px solid white",
+                border: "2px solid white",
                 borderRadius: "20px",
+                padding: "5px",
+                width: "85px",
               }}
             >
               Sign In

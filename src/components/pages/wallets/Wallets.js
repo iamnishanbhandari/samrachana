@@ -5,7 +5,7 @@ const Wallets = () => {
   return (
     <>
       <Box mt={"400px"} color={"white"}>
-        hello this is contracts hehe
+        hello this is wallets hehe
       </Box>
     </>
   );

@@ -7,6 +7,7 @@ import Contracts from "./components/pages/contracts/Contracts";
 import Nodes from "./components/pages/nodes/Nodes";
 import Wallets from "./components/pages/wallets/Wallets";
 import Validator from "./components/pages/validator/Validator";
+import Home from "./components/home/Home";
 
 const App = () => {
   return (
@@ -16,7 +17,10 @@ const App = () => {
           <NavBar />
           {/* <Footer /> */}
           <Routes>
-            <Route path="/" element={<Contracts />}>
+            <Route path="/home" element={<Home />}>
+              Home
+            </Route>
+            <Route path="/contracts" element={<Contracts />}>
               Contracts
             </Route>
             <Route path="/nodes" element={<Nodes />}>

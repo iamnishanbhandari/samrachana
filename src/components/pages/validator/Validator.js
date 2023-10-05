@@ -5,7 +5,7 @@ const Validator = () => {
   return (
     <>
       <Box mt={"400px"} color={"white"}>
-        hello this is contracts hehe
+        hello this is validator hehe
       </Box>
     </>
   );
