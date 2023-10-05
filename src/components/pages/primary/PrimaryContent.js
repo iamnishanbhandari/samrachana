@@ -112,7 +112,7 @@ const PrimaryContent = () => {
                 borderRadius: "100px",
                 width: "200px",
                 margin: "auto",
-                mt: "70px",
+                mt: "60px",
                 bgcolor: "darkblue",
               }}
             >
