@@ -12,6 +12,7 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
+import { Link } from "react-router-dom";
 
 const pages = ["Contracts", "Nodes", "Validator", "Wallets"];
 const settings = ["Contracts", "Nodes", "Validator", "Wallets"];
@@ -131,13 +132,12 @@ function NavBar() {
                 border: "3px solid red",
                 display: "flex",
                 justifyContent: "center",
-                gap: "30px",
-
+                gap: "40px",
                 alignItems: "center",
               },
             }}
           >
-            {pages.map((page) => (
+            {/* {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
@@ -152,7 +152,78 @@ function NavBar() {
               >
                 {page}
               </Button>
-            ))}
+            ))} */}
+            <Box sx={{ display: "flex" }}>
+              <Box>
+                <Link to={"/"}>
+                  <Button
+                    sx={{
+                      color: "white",
+                      fontWeight: "light",
+                      fontSize: "18px",
+                    }}
+                  >
+                    Contracts
+                  </Button>
+                </Link>
+              </Box>
+
+              <Link to={"/nodes"}>
+                <Box>
+                  <Button
+                    sx={{
+                      color: "white",
+                      fontWeight: "light",
+                      fontSize: "18px",
+                    }}
+                  >
+                    Nodes
+                  </Button>
+                </Box>
+              </Link>
+
+              <Box>
+                <Link to={"/validator"}>
+                  <Button
+                    sx={{
+                      color: "white",
+                      fontWeight: "light",
+                      fontSize: "18px",
+                    }}
+                  >
+                    Validator
+                  </Button>
+                </Link>
+              </Box>
+
+              <Box>
+                <Link to={"/wallets"}>
+                  <Button
+                    sx={{
+                      color: "white",
+                      fontWeight: "light",
+                      fontSize: "18px",
+                    }}
+                  >
+                    Wallets
+                  </Button>
+                </Link>
+              </Box>
+
+              <Box>
+                <Link to={"/nodes"}>
+                  <Button
+                    sx={{
+                      color: "white",
+                      fontWeight: "light",
+                      fontSize: "18px",
+                    }}
+                  >
+                    Contracts
+                  </Button>
+                </Link>
+              </Box>
+            </Box>
           </Box>
 
           <Box sx={{ flexGrow: 0, border: "3px solid navy" }}>
@@ -183,6 +254,17 @@ function NavBar() {
                 </MenuItem>
               ))}
             </Menu>
+          </Box>
+          <Box>
+            <Button
+              sx={{
+                color: "white",
+                border: "1px solid white",
+                borderRadius: "20px",
+              }}
+            >
+              Sign In
+            </Button>
           </Box>
         </Toolbar>
       </Container>
