@@ -39,9 +39,9 @@ function NavBar() {
   return (
     <AppBar
       position="static"
-      sx={{ border: "3px solid pink", backgroundColor: "transparent" }}
+      sx={{ backgroundColor: "transparent", padding: "20px" }}
     >
-      <Container maxWidth="xl" sx={{ border: "3px solid green" }}>
+      <Container maxWidth="xl" sx={{}}>
         <Toolbar disableGutters>
           <Link to={"/"}>
             <Typography
@@ -49,9 +49,9 @@ function NavBar() {
               noWrap
               component="a"
               sx={{
-                border: "3px solid red",
+                // border: "3px solid red",
                 mr: 2,
-                display: { xs: "none", md: "flex", border: "3px solid red" },
+                display: { xs: "none", md: "flex" },
                 fontFamily: "monospace",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
@@ -64,7 +64,7 @@ function NavBar() {
           </Link>
           <Box
             sx={{
-              border: "3px solid red",
+              // border: "3px solid red",
               flexGrow: 1,
               display: { xs: "flex", md: "none" },
             }}
@@ -94,7 +94,7 @@ function NavBar() {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: "block", md: "none", border: "3px solid red" },
+                display: { xs: "block", md: "none" },
               }}
             >
               {pages.map((page) => (
@@ -130,7 +130,7 @@ function NavBar() {
               display: {
                 xs: "none",
                 md: "flex",
-                border: "3px solid red",
+                // border: "3px solid red",
                 display: "flex",
                 justifyContent: "center",
                 gap: "40px",
@@ -227,7 +227,7 @@ function NavBar() {
             </Box>
           </Box>
 
-          <Box sx={{ flexGrow: 0, border: "3px solid navy" }}>
+          <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -260,7 +260,7 @@ function NavBar() {
             <Button
               sx={{
                 color: "white",
-                border: "2px solid white",
+                // border: "2px solid white",
                 borderRadius: "20px",
                 padding: "5px",
                 width: "85px",

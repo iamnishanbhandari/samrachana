@@ -15,7 +15,7 @@ const OurFeature = () => {
         <Box
           sx={{
             mt: "100px",
-            border: "1px solid white",
+            // border: "1px solid white",
             color: "white",
             display: "flex",
             flexDirection: "column",
@@ -53,17 +53,17 @@ const OurFeature = () => {
 
       <Box
         sx={{
-          border: "2px solid red",
+          //   border: "2px solid red",
           display: "flex",
           flexWrap: "wrap",
           justifyContent: "center",
           mt: "15px",
         }}
       >
-        <Box sx={{ width: "25%", margin: "10px", border: "1px solid white" }}>
+        <Box sx={{ width: "25%", margin: "10px" }}>
           <Box
             sx={{
-              border: "1px solid white",
+              //   border: "1px solid white",
               color: "white",
               display: "flex",
               flexDirection: "column",
@@ -97,10 +97,10 @@ const OurFeature = () => {
           </Box>
         </Box>
 
-        <Box sx={{ width: "25%", margin: "10px", border: "1px solid white" }}>
+        <Box sx={{ width: "25%", margin: "10px" }}>
           <Box
             sx={{
-              border: "1px solid white",
+              //   border: "1px solid white",
               color: "white",
               display: "flex",
               flexDirection: "column",
@@ -134,10 +134,10 @@ const OurFeature = () => {
           </Box>
         </Box>
 
-        <Box sx={{ width: "25%", margin: "10px", border: "1px solid white" }}>
+        <Box sx={{ width: "25%", margin: "10px" }}>
           <Box
             sx={{
-              border: "1px solid white",
+              //   border: "1px solid white",
               color: "white",
               display: "flex",
               flexDirection: "column",
@@ -171,10 +171,10 @@ const OurFeature = () => {
           </Box>
         </Box>
 
-        <Box sx={{ width: "25%", margin: "10px", border: "1px solid white" }}>
+        <Box sx={{ width: "25%", margin: "10px" }}>
           <Box
             sx={{
-              border: "1px solid white",
+              //   border: "1px solid white",
               color: "white",
               display: "flex",
               flexDirection: "column",
@@ -208,10 +208,10 @@ const OurFeature = () => {
           </Box>
         </Box>
 
-        <Box sx={{ width: "25%", margin: "10px", border: "1px solid white" }}>
+        <Box sx={{ width: "25%", margin: "10px" }}>
           <Box
             sx={{
-              border: "1px solid white",
+              //   border: "1px solid white",
               color: "white",
               display: "flex",
               flexDirection: "column",
@@ -245,10 +245,10 @@ const OurFeature = () => {
           </Box>
         </Box>
 
-        <Box sx={{ width: "25%", margin: "10px", border: "1px solid white" }}>
+        <Box sx={{ width: "25%", margin: "10px" }}>
           <Box
             sx={{
-              border: "1px solid white",
+              //   border: "1px solid white",
               color: "white",
               display: "flex",
               flexDirection: "column",

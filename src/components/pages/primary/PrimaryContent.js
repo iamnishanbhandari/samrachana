@@ -7,7 +7,7 @@ const PrimaryContent = () => {
       <Container>
         <Box
           sx={{
-            border: "1px solid green",
+            // border: "1px solid green",
             mt: "100px",
             height: "60vh",
             textAlign: "center",
@@ -15,7 +15,7 @@ const PrimaryContent = () => {
         >
           <Box
             sx={{
-              border: "3px solid white",
+              // border: "3px solid white",
               mt: "20px",
               display: "flex",
               flexDirection: "column",
@@ -25,7 +25,7 @@ const PrimaryContent = () => {
               <Typography
                 variant="h3"
                 sx={{
-                  outline: "1px solid red",
+                  // outline: "1px solid red",
                   color: "white",
                   fontWeight: "600",
                 }}
@@ -35,7 +35,7 @@ const PrimaryContent = () => {
             </Box>
             <Box
               sx={{
-                outline: "1px solid red",
+                // outline: "1px solid red",
                 color: "white",
                 marginTop: "20px",
                 fontWeight: "100",
@@ -50,7 +50,7 @@ const PrimaryContent = () => {
           <Box
             sx={{
               display: "flex",
-              outline: "2px solid red",
+              // outline: "2px solid red",
               width: "30%",
               justifyContent: "space-around",
               margin: "auto",
@@ -108,7 +108,7 @@ const PrimaryContent = () => {
                 color: "white",
                 fontWeight: "bold",
                 height: "60px",
-                border: "1px solid white",
+                // border: "1px solid white",
                 borderRadius: "100px",
                 width: "200px",
                 margin: "auto",
