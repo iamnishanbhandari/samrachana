@@ -3,6 +3,7 @@ import PrimaryContent from "../pages/primary/PrimaryContent";
 import { Box } from "@mui/material";
 import Companies from "../pages/companies/Companies";
 import OurFeature from "../pages/feature/OurFeature";
+import SalesInfo from "../pages/sales/SalesInfo";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <PrimaryContent />
       <Companies />
       <OurFeature />
+      <SalesInfo />
     </>
   );
 };
