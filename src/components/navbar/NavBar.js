@@ -15,7 +15,12 @@ import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
 
 const pages = ["Contracts", "Nodes", "Validator", "Wallets"];
-const settings = ["Contracts", "Nodes", "Validator", "Wallets"];
+const settings = [
+  "Smart Contract Register",
+  "Identify Protocol",
+  "Network",
+  "Sign In",
+];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -164,7 +169,7 @@ function NavBar() {
                       fontSize: "18px",
                     }}
                   >
-                    Contracts
+                    Smart Contract register
                   </Button>
                 </Link>
               </Box>
@@ -178,7 +183,7 @@ function NavBar() {
                       fontSize: "18px",
                     }}
                   >
-                    Nodes
+                    Identify Protocol
                   </Button>
                 </Box>
               </Link>
@@ -192,7 +197,7 @@ function NavBar() {
                       fontSize: "18px",
                     }}
                   >
-                    Validator
+                    Network
                   </Button>
                 </Link>
               </Box>
@@ -206,12 +211,12 @@ function NavBar() {
                       fontSize: "18px",
                     }}
                   >
-                    Wallets
+                    SignIn
                   </Button>
                 </Link>
               </Box>
 
-              <Box>
+              {/* <Box>
                 <Link to={"/nodes"}>
                   <Button
                     sx={{
@@ -223,7 +228,7 @@ function NavBar() {
                     Contracts
                   </Button>
                 </Link>
-              </Box>
+              </Box> */}
             </Box>
           </Box>
 
@@ -256,7 +261,7 @@ function NavBar() {
               ))}
             </Menu>
           </Box>
-          <Box ml={10}>
+          {/* <Box ml={10}>
             <Button
               sx={{
                 color: "white",
@@ -268,7 +273,7 @@ function NavBar() {
             >
               Sign In
             </Button>
-          </Box>
+          </Box> */}
         </Toolbar>
       </Container>
     </AppBar>

@@ -1,9 +1,9 @@
 import React from "react";
 import NavBar from "./components/navbar/NavBar";
-import Footer from "./components/footer/Footer";
+// import Footer from "./components/footer/Footer";
 import { Box } from "@mui/material";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Contracts from "./components/pages/contracts/Contracts";
+import Contracts from "./components/pages/contracts/SmartContract";
 import Nodes from "./components/pages/nodes/Nodes";
 import Wallets from "./components/pages/wallets/Wallets";
 import Validator from "./components/pages/validator/Validator";
