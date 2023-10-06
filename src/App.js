@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <Box sx={{ backgroundColor: "#0F1038", height: "210vh" }}>
+        <Box sx={{ backgroundColor: "#0F1038", height: "250vh" }}>
           <NavBar />
           {/* <Footer /> */}
           <Routes>
