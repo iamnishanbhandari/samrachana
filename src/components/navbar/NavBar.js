@@ -13,6 +13,8 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "react-router-dom";
+import thumbnail from "../../assets/thumbnail.png";
+import BNEG from "../../assets/BNEG.png";
 
 const pages = ["Contracts", "Nodes", "Validator", "Wallets"];
 const settings = [
@@ -127,6 +129,7 @@ function NavBar() {
               }}
             >
               SAMRACHANA
+              <img src={thumbnail} alt="Thumbnail Image" />
             </Typography>
           </Link>
           <Box

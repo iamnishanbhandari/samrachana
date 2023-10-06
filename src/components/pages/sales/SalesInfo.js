@@ -22,15 +22,17 @@ const SalesInfo = () => {
           </Box>
           <Box>
             <Box>
-              <Typography sx={{ color: "white" }}>TOKEN</Typography>
+              <Typography sx={{ color: "white" }}>
+                Token Name: eGovToken (EGT)
+              </Typography>
               <Typography
                 sx={{ color: "white", fontWeight: "bold", fontSize: "30px" }}
               >
                 Token Sales
               </Typography>
-              <Typography sx={{ color: "white", fontSize: "25px" }}>
-                Lorem ipsum dolor sit amet, consectetur Integer <br />{" "}
-                suscipit,ugue id mi.c neque bulum. , malesuada. In et v.
+              <Typography sx={{ color: "white", fontSize: "20px" }}>
+                Join our token sale to help shape the future of governance!{" "}
+                <br />
               </Typography>
             </Box>
             <Box>
@@ -50,7 +52,7 @@ const SalesInfo = () => {
                 </Box>
                 <Box>
                   <Typography sx={{ color: "white" }}>
-                    73% to early birds{" "}
+                    Backed By Nepalese Ruppee
                   </Typography>
                 </Box>
               </Box>
@@ -67,7 +69,7 @@ const SalesInfo = () => {
                 </Box>
                 <Box>
                   <Typography sx={{ color: "white" }}>
-                    23% to community{" "}
+                    Governance Compliance
                   </Typography>
                 </Box>
               </Box>
@@ -83,7 +85,10 @@ const SalesInfo = () => {
                   ></img>
                 </Box>
                 <Box>
-                  <Typography sx={{ color: "white" }}>4% to burn </Typography>
+                  <Typography sx={{ color: "white" }}>
+                    {" "}
+                    CryptoCurrency Independent
+                  </Typography>
                 </Box>
               </Box>
             </Box>
